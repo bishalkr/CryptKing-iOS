@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7252C9926F0F73900853D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7252C9826F0F73900853D1A /* AppDelegate.swift */; };
+		B7252C9B26F0F73900853D1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7252C9A26F0F73900853D1A /* SceneDelegate.swift */; };
+		B7252CA526F0F73D00853D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7252CA326F0F73D00853D1A /* LaunchScreen.storyboard */; };
+		B7252CB126F0F79000853D1A /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7252CB026F0F79000853D1A /* CoinManager.swift */; };
+		B7252CB326F0F79800853D1A /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7252CB226F0F79800853D1A /* CoinData.swift */; };
+		B7252CB526F0F7B100853D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7252CB426F0F7B100853D1A /* Assets.xcassets */; };
+		B730977926F0FD5F006471E2 /* ViewController.swift 21-05-27-862.swift in Sources */ = {isa = PBXBuildFile; fileRef = B730977826F0FD5F006471E2 /* ViewController.swift 21-05-27-862.swift */; };
+		B730977B26F0FDB9006471E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B730977A26F0FDB9006471E2 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7252C9526F0F73900853D1A /* CryptKing-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptKing-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7252C9826F0F73900853D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7252C9A26F0F73900853D1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7252CA426F0F73D00853D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7252CA626F0F73D00853D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7252CB026F0F79000853D1A /* CoinManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		B7252CB226F0F79800853D1A /* CoinData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		B7252CB426F0F7B100853D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../iOS Dev/ByteKing-iOS13/ByteKing/Assets.xcassets"; sourceTree = "<group>"; };
+		B730977826F0FD5F006471E2 /* ViewController.swift 21-05-27-862.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController.swift 21-05-27-862.swift"; sourceTree = "<group>"; };
+		B730977A26F0FDB9006471E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7252C9226F0F73900853D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7252C8C26F0F73900853D1A = {
+			isa = PBXGroup;
+			children = (
+				B7252C9726F0F73900853D1A /* CryptKing-iOS */,
+				B7252C9626F0F73900853D1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7252C9626F0F73900853D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7252C9526F0F73900853D1A /* CryptKing-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7252C9726F0F73900853D1A /* CryptKing-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7252C9826F0F73900853D1A /* AppDelegate.swift */,
+				B7252C9A26F0F73900853D1A /* SceneDelegate.swift */,
+				B7252CB626F0F89E00853D1A /* Controller */,
+				B7252CB926F0F8D500853D1A /* View */,
+				B7252CB826F0F8C600853D1A /* Model */,
+				B7252CB426F0F7B100853D1A /* Assets.xcassets */,
+				B7252CA626F0F73D00853D1A /* Info.plist */,
+			);
+			path = "CryptKing-iOS";
+			sourceTree = "<group>";
+		};
+		B7252CB626F0F89E00853D1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B730977826F0FD5F006471E2 /* ViewController.swift 21-05-27-862.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B7252CB826F0F8C600853D1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7252CB226F0F79800853D1A /* CoinData.swift */,
+				B7252CB026F0F79000853D1A /* CoinManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7252CB926F0F8D500853D1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B7252CA326F0F73D00853D1A /* LaunchScreen.storyboard */,
+				B730977A26F0FDB9006471E2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7252C9426F0F73900853D1A /* CryptKing-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7252CA926F0F73D00853D1A /* Build configuration list for PBXNativeTarget "CryptKing-iOS" */;
+			buildPhases = (
+				B7252C9126F0F73900853D1A /* Sources */,
+				B7252C9226F0F73900853D1A /* Frameworks */,
+				B7252C9326F0F73900853D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CryptKing-iOS";
+			productName = "CryptKing-iOS";
+			productReference = B7252C9526F0F73900853D1A /* CryptKing-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7252C8D26F0F73900853D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B7252C9426F0F73900853D1A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = B7252C9026F0F73900853D1A /* Build configuration list for PBXProject "CryptKing-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7252C8C26F0F73900853D1A;
+			productRefGroup = B7252C9626F0F73900853D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7252C9426F0F73900853D1A /* CryptKing-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7252C9326F0F73900853D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7252CA526F0F73D00853D1A /* LaunchScreen.storyboard in Resources */,
+				B7252CB526F0F7B100853D1A /* Assets.xcassets in Resources */,
+				B730977B26F0FDB9006471E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7252C9126F0F73900853D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7252CB126F0F79000853D1A /* CoinManager.swift in Sources */,
+				B7252C9926F0F73900853D1A /* AppDelegate.swift in Sources */,
+				B7252CB326F0F79800853D1A /* CoinData.swift in Sources */,
+				B730977926F0FD5F006471E2 /* ViewController.swift 21-05-27-862.swift in Sources */,
+				B7252C9B26F0F73900853D1A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7252CA326F0F73D00853D1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7252CA426F0F73D00853D1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7252CA726F0F73D00853D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7252CA826F0F73D00853D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7252CAA26F0F73D00853D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KUB659R54A;
+				INFOPLIST_FILE = "CryptKing-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bishal.CryptKing-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B7252CAB26F0F73D00853D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KUB659R54A;
+				INFOPLIST_FILE = "CryptKing-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bishal.CryptKing-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7252C9026F0F73900853D1A /* Build configuration list for PBXProject "CryptKing-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7252CA726F0F73D00853D1A /* Debug */,
+				B7252CA826F0F73D00853D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7252CA926F0F73D00853D1A /* Build configuration list for PBXNativeTarget "CryptKing-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7252CAA26F0F73D00853D1A /* Debug */,
+				B7252CAB26F0F73D00853D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7252C8D26F0F73900853D1A /* Project object */;
+}
